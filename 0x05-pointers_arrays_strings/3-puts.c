@@ -6,9 +6,9 @@
  * _putchar prints a new line
  */
 
-void _puts(char *a)
+void _puts(char *s)
 {
-	while (*a)
+	while (*s)
 		_putchar(*a++);
 
 	_putchar('\n');
